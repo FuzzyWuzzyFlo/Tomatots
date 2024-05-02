@@ -1,0 +1,93 @@
+/* Basic */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #f3f6fa;
+}
+
+    body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+        -moz-animation: none !important;
+        -webkit-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+        -moz-transition: none !important;
+        -webkit-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+    }
+
+body, input, select, textarea {
+    color: #7c8081;
+    font-family: 'Lato', sans-serif;
+    font-size: 15pt;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    line-height: 1.75em;
+}
+
+a {
+    -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    color: #3fb1a3;
+    text-decoration: none;
+    border-bottom: dotted 1px;
+}
+
+    a:hover {
+        border-bottom-color: transparent;
+    }
+
+strong, b {
+    font-weight: 400;
+}
+
+p, ul, ol, dl, table, blockquote {
+    margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-weight: 300;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+        color: inherit;
+        text-decoration: none;
+        border: 0;
+    }
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-size: 1.15em;
+    letter-spacing: 0.025em;
+}
+
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 0 10px;
+            }
+        }
+/* Image */
+
+.image {
+    border: 0;
+    position: relative;
+}
