@@ -5,143 +5,218 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toma Tots::School Information</title>
     <link rel="stylesheet" href="tomatots.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
      <!-- Include the banner using an iframe -->
     <a href="index.html">
-    <iframe src="banner.html" width="100%" height="100px" frameborder="0"></iframe>
     </a>
 
     <header>
         <h1>School Information</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="transport.html">Getting Around</a></li>
-            <li><a href="food.html">Food & Shopping</a></li>
-            <li><a href="bills.html">Bills and Trash</a></li>
-            <li><a href="winter.html">Surviving Winter</a></li>
-            <li><a href="school.html">School Information</a></li>
-            <li><a href="sports.html">Winter Sports</a></li>
-            <li><a href="japanese.html">Getting Nihongo Jozu</a></li>
-            <li><a href="question.html">Any other Questions?</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Living Arrangements
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="transport.html">Getting Around</a></li>
+                    <li><a class="dropdown-item" href="food.html">Food & Shopping</a></li>
+                    <li><a class="dropdown-item" href="bills.html">Bills and Trash</a></li>
+                    <li><a class="dropdown-item" href="winter.html">Surviving Winter</a></li>
+                    <li><a class="dropdown-item" href="sports.html">Winter Sports</a></li>
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  School Stuff
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="school.html">School Information</a></li>
+                    <li><a class="dropdown-item" href="japanese.html">Getting Nihongo Jozu</a></li>
+                    <li><a class="dropdown-item" href="question.html">Any other Questions?</a></li>
+                </ul>
+                
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
 
     <main>
         <section>         
             <div id="table">
-                <h1>School Information</h1>
+                
                 <p>As a highschool JET, you are under the mercy of the Hokkaido Board of Education.
                     This means you will have to visit schools both in Tomakomai and out of Tomakomai.
                     You most likely wil be at your base school (Higashi High School) three times out of the week, and your visit schools 
                     two days out of the week, but this can vary. Honestly, the visit schools were always such a treat to go to and I always enjoyed visiting even if was a journey to get there.
                     <br>Below I will list all the high schools you may visit and some general information about them.</p>
             <!--start of table--->
-            <table>
-          <tr>
-            <th>School Name</th>
-            <th>Description</th>
-            <th>Address</th>
-            <th>Picture</th>
-          </tr>
-          <tr><!--Row 1--->
-            <td>Higashi Highschool (東高校)</td>
-            <td class="text"> Do you like High School Musical? Well, welcome to East High! <br>
-                Who else can say they have a school that had a manga written about them? No, seriously, check out "Dogsred" by Satoru Noda!
-                <br>
-                Higashi is your homebase and technically your direct supervisors. You will clock into this school, and if you need to call in sick, you will have to contact the school as well!
-                This is the school that will set up the groundwork before you arrive (aka housing, paperwork, time-off etc.)
-                and it will be the school you spend most of your time at (during winter/spring/summer breaks you will be at Higashi, no visit schools during that time).
-                <br> Higashi is known to have the highest English ability out of all the high schools in Tomakomai. Higashi has a very welcoming atmosphere and many teachers will be eager to practice their English skills on you! The English teachers here are very kind and I always enjoyed team-teaching with them!
-                The workload definitely depends on the time of the year but it was always very managable. I never felt over-worked (quite the opposite).
-                Definitely there will be work lulls (namely, during breaks) but this gave me time to study Japanese or work on my own personal projects (kinda like this website)!
-                <br>There are many ways and chances to connect with staff, at the end and beginning of the school year it is like 2 straight months of constant parties (enkais). This was always
-                a nice chance to connect with staff who may have been to shy to communicate! 
-                <br>There are also many ways to get involved! For instance, the ALT before me was into choir, so he participated in music class and choir club. As for me, I joined Higashi's Teacher Hockey Team and I would sometimes join P.E. to participate in some free judo lessons!
-                I never ice skated before Tomakomai, but I am now proud to say I can play hockey! This was one of my best memories I made here! It is such a unique experience, and I am happy the school has that opportunity!
-                If you are interested in it please give the PE teachers a shout and you can join!
-                Maekawa sensei is the coach of the team, he is a PE teacher and was very warm and welcoming! 
-                <br>I hope you find your niche! My best advice is to find something you want to explore and join the community in some way!
-                This was one of the best ways for me to build rapport with the staff, so I hope you can find your niche too!</td>
-            <td>2 Chome-12-20 Shimizucho, Tomakomai, Hokkaido 053-0034</td>
-            <td>image</td>
-          </tr>
-           <tr><!--Row 2--->
-            <td>Minami Highschool (南高校)</td>
-            <td class="text">               South high school but it is not South of Tomakomai which is ironic! This was the school I visited 2nd most frequently.
-                If any school needs their own ALT it is this one. Minami keeps you busy and gets you invovled which I love! 
-                Many of the English teachers here use you like crazy. I always had a decent number of classes, and never-ending things to grade (make sure you have a big set of red pens). 
-                Minami teachers are also part of the ice hockey team so it was always fun to trash talk each other in-between classes!
-                This school has a lot students wanting to go into medical fields (mostly, nursing) and has a lot of international happenings, so the students here are eager to learn English!
-                Just recently we had one of our students do a homestay in Canada, then we hosted a Canadian student for a month, students also visit Australia in the Summer!
-                So, I'd say there is a lot of international emphasis which is great! 
-                <br> Minami also has a pretty active English club. I would sometimes join for English club after school! There we would play games or have little parties~
-                I also got involved with the Volunteer and Broadcasting club here! This was always a good way to connect with students! 
-                Definitely the teachers and students will be eager to have you!</td>
-            <td>2 Chome-1-2 Nozomicho, Tomakomai, Hokkaido 059-1272</td>
-            <td>Image</td>
-          </tr>
-           <tr><!--Row 3--->
-            <td>Mukawa High School (むかわ高校)</td>
-            <td class="text">Ya like dinosaurs? Mukawa is known for that, so go check out their local fossil museum! Mukawa is a school 40 minutes out of Tomakomai. To get there you need to take a local train from Tomakomai Station.
-                This school is known for their baseball team! So lots of Otani dreams! Their level of English is on the lower side, but the students are energetic which was always fun!
-                It is a bit of a journey to get to this school (espcially in Winter), but the countryside environment was always a nice change of pace and refreshing!
-                I would typically visit this school once or twice a month.
-                The JTEs here are very kind and always try to involve you in lessons which I appreciated.
-                <br> Mukawa is known for their brass band! I went to a couple of their performances and it really is amazing! Their anime melodies were always such a treat to listen to, so try to make it to one of their concerts if you can!</td>
-            <td>4 Chome-2-1 Fukuzumi, Mukawa, Yufutsu District, Hokkaido 054-0032</td>
-            <td>Image</td>
-          </tr>
-
-          <tr><!--Row 4--->
-            <td>Atsuma High School (厚真高校)</td>
-            <td class="text">
-                It is with great misfortune that high schools don't have school lunch... HOWEVER, Atsuma is one of the rare high schools that DO!
-                That was probably my most favorite part about visiting this school! Haha! Their school lunch is the bees knees and really helped itch that craving I had for sweet, sweet kyuushoku.
-                Atsuma's level of English is probably about the same as Mukawa. But in my experience here, the JTE lets you have free reign to be creative in making the lessons, so I always tried to have fun with it!
-                As long as the students are having fun learning English, you're doing amazing sweetie.
-                Getting to this school is also quite the trek. You must take Atsuma Bus from Tomakomai Station. It is about an hour long, but the nice compensation is you won't have to get to Atsuma until 3rd period!
-                The bus runs infrequently so make sure not to miss it!</td>
-            <td>234-3 Hongo, Atsuma, Yufutsu District, Hokkaido 059-1605</td>
-            <td>Image</td>
-          </tr>
-
-          <tr><!--Row 5--->
-            <td>Night School (定時制)</td>
-            <td class="text"> What's better than teaching school in the day? Teaching school... <em>at night</em>. About once a semester I would have a night school visit.
-                Both Higashi and Kogyo have night school, so you may visit either one. Night school is basically a type of untraditional school where students who are working, couldn't pass the day school enterance exam,
-                or older folk who want to get a HS diploma attend. 
-                On these days you'll have different hours (e.g. instead of 0800-1600, you would go to work 1200-2000, but confirm your changed hours with the office staff). 
-                Personally, I am a night owl so I actually loved these hours! 
-                <br> The class sizes are very small (typically, less than 10 students) and the level is very low. 
-                They can be a wild bunch so it was always interesting! My biggest advice is to make fun games so they can enjoy speaking English!
-                <br> Another AMAZING bonus for night school is the kyuushoku! They are feeding adults ya know, so we get big portions and the best lunch ladies cook it! 
-                Very nice homemade meal for a crazy low cost! I wish I had more of these visits!</td>
-            <td>2 Chome-12-20 Shimizucho, Tomakomai, Hokkaido 053-0034</td>
-            <td>Image</td>
-          </tr>
-
-          <tr><!--Row 6--->
-            <td>Tomakomaishien School (特別学校)</td>
-            <td class="text"> This was also a rare visit but always my favorite. This is a special education school for elementary and middle school students.
-                I find it nice that although we are high school JETs, we do have this opportunity to work with the lower grade levels, albiet rare! 
-                The teachers here are extremely welcoming and the students were such a joy! There is no official English teacher here, 
-                so this where I'd say having decent conversational Japanese skills would come most in handy! 
-                In my experience, the teacher in charge of the class will be responsible for creating the lesson plan. So your job is to show up, and play the games or sing the songs they have set for the day!
-                This was always a refreshing change of pace from the HS grind! 
-                <br>During my time here, I would try to join PE classes inbetween lessons! It was fun to spend time with the students and teachers! They also have some arts and crafts classes that you could participate in!</td>
-            <td>3 Chome-10-3 Meitokucho, Tomakomai, Hokkaido 059-1273</td>
-            <td>Image</td>
-          </tr>
-        </table>
+            <table class="table table-dark table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">School Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Address</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Higashi Highschool (東高校)</th>
+                    <td>Do you like High School Musical? Well, welcome to East High!
+                        Who else can say they have a school that had a manga written about them? No, seriously, check out "Dogsred" by Satoru Noda!
+                        
+                        Higashi is your homebase and technically your direct supervisors. You will clock into this school, and if you need to call in sick, you will have to contact the school as well!
+                        This is the school that will set up the groundwork before you arrive (aka housing, paperwork, time-off etc.)
+                        and it will be the school you spend most of your time at (during winter/spring/summer breaks you will be at Higashi, no visit schools during that time).
+                         Higashi is known to have the highest English ability out of all the high schools in Tomakomai. Higashi has a very welcoming atmosphere and many teachers will be eager to practice their English skills on you! The English teachers here are very kind and I always enjoyed team-teaching with them!
+                        The workload definitely depends on the time of the year but it was always very managable. I never felt over-worked (quite the opposite).
+                        Definitely there will be work lulls (namely, during breaks) but this gave me time to study Japanese or work on my own personal projects (kinda like this website)!
+                       There are many ways and chances to connect with staff, at the end and beginning of the school year it is like 2 straight months of constant parties (enkais). This was always
+                        a nice chance to connect with staff who may have been to shy to communicate! 
+                        There are also many ways to get involved! For instance, the ALT before me was into choir, so he participated in music class and choir club. As for me, I joined Higashi's Teacher Hockey Team and I would sometimes join P.E. to participate in some free judo lessons!
+                        I never ice skated before Tomakomai, but I am now proud to say I can play hockey! This was one of my best memories I made here! It is such a unique experience, and I am happy the school has that opportunity!
+                        If you are interested in it please give the PE teachers a shout and you can join!
+                        Maekawa sensei is the coach of the team, he is a PE teacher and was very warm and welcoming! 
+                        I hope you find your niche! My best advice is to find something you want to explore and join the community in some way!
+                        This was one of the best ways for me to build rapport with the staff, so I hope you can find your niche too!</td>
+                    <td>2 Chome-12-20 Shimizucho, Tomakomai, Hokkaido 053-0034</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Higashi Highschool (東高校)</th>
+                    <td>Do you like High School Musical? Well, welcome to East High!
+                        Who else can say they have a school that had a manga written about them? No, seriously, check out "Dogsred" by Satoru Noda!
+                        
+                        Higashi is your homebase and technically your direct supervisors. You will clock into this school, and if you need to call in sick, you will have to contact the school as well!
+                        This is the school that will set up the groundwork before you arrive (aka housing, paperwork, time-off etc.)
+                        and it will be the school you spend most of your time at (during winter/spring/summer breaks you will be at Higashi, no visit schools during that time).
+                         Higashi is known to have the highest English ability out of all the high schools in Tomakomai. Higashi has a very welcoming atmosphere and many teachers will be eager to practice their English skills on you! The English teachers here are very kind and I always enjoyed team-teaching with them!
+                        The workload definitely depends on the time of the year but it was always very managable. I never felt over-worked (quite the opposite).
+                        Definitely there will be work lulls (namely, during breaks) but this gave me time to study Japanese or work on my own personal projects (kinda like this website)!
+                       There are many ways and chances to connect with staff, at the end and beginning of the school year it is like 2 straight months of constant parties (enkais). This was always
+                        a nice chance to connect with staff who may have been to shy to communicate! 
+                        There are also many ways to get involved! For instance, the ALT before me was into choir, so he participated in music class and choir club. As for me, I joined Higashi's Teacher Hockey Team and I would sometimes join P.E. to participate in some free judo lessons!
+                        I never ice skated before Tomakomai, but I am now proud to say I can play hockey! This was one of my best memories I made here! It is such a unique experience, and I am happy the school has that opportunity!
+                        If you are interested in it please give the PE teachers a shout and you can join!
+                        Maekawa sensei is the coach of the team, he is a PE teacher and was very warm and welcoming! 
+                        I hope you find your niche! My best advice is to find something you want to explore and join the community in some way!
+                        This was one of the best ways for me to build rapport with the staff, so I hope you can find your niche too!</td>
+                    <td>2 Chome-12-20 Shimizucho, Tomakomai, Hokkaido 053-0034</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Higashi Highschool (東高校)</th>
+                    <td>Do you like High School Musical? Well, welcome to East High!
+                        Who else can say they have a school that had a manga written about them? No, seriously, check out "Dogsred" by Satoru Noda!
+                        
+                        Higashi is your homebase and technically your direct supervisors. You will clock into this school, and if you need to call in sick, you will have to contact the school as well!
+                        This is the school that will set up the groundwork before you arrive (aka housing, paperwork, time-off etc.)
+                        and it will be the school you spend most of your time at (during winter/spring/summer breaks you will be at Higashi, no visit schools during that time).
+                         Higashi is known to have the highest English ability out of all the high schools in Tomakomai. Higashi has a very welcoming atmosphere and many teachers will be eager to practice their English skills on you! The English teachers here are very kind and I always enjoyed team-teaching with them!
+                        The workload definitely depends on the time of the year but it was always very managable. I never felt over-worked (quite the opposite).
+                        Definitely there will be work lulls (namely, during breaks) but this gave me time to study Japanese or work on my own personal projects (kinda like this website)!
+                       There are many ways and chances to connect with staff, at the end and beginning of the school year it is like 2 straight months of constant parties (enkais). This was always
+                        a nice chance to connect with staff who may have been to shy to communicate! 
+                        There are also many ways to get involved! For instance, the ALT before me was into choir, so he participated in music class and choir club. As for me, I joined Higashi's Teacher Hockey Team and I would sometimes join P.E. to participate in some free judo lessons!
+                        I never ice skated before Tomakomai, but I am now proud to say I can play hockey! This was one of my best memories I made here! It is such a unique experience, and I am happy the school has that opportunity!
+                        If you are interested in it please give the PE teachers a shout and you can join!
+                        Maekawa sensei is the coach of the team, he is a PE teacher and was very warm and welcoming! 
+                        I hope you find your niche! My best advice is to find something you want to explore and join the community in some way!
+                        This was one of the best ways for me to build rapport with the staff, so I hope you can find your niche too!</td>
+                    <td>2 Chome-12-20 Shimizucho, Tomakomai, Hokkaido 053-0034</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Higashi Highschool (東高校)</th>
+                    <td>Do you like High School Musical? Well, welcome to East High!
+                        Who else can say they have a school that had a manga written about them? No, seriously, check out "Dogsred" by Satoru Noda!
+                        
+                        Higashi is your homebase and technically your direct supervisors. You will clock into this school, and if you need to call in sick, you will have to contact the school as well!
+                        This is the school that will set up the groundwork before you arrive (aka housing, paperwork, time-off etc.)
+                        and it will be the school you spend most of your time at (during winter/spring/summer breaks you will be at Higashi, no visit schools during that time).
+                         Higashi is known to have the highest English ability out of all the high schools in Tomakomai. Higashi has a very welcoming atmosphere and many teachers will be eager to practice their English skills on you! The English teachers here are very kind and I always enjoyed team-teaching with them!
+                        The workload definitely depends on the time of the year but it was always very managable. I never felt over-worked (quite the opposite).
+                        Definitely there will be work lulls (namely, during breaks) but this gave me time to study Japanese or work on my own personal projects (kinda like this website)!
+                       There are many ways and chances to connect with staff, at the end and beginning of the school year it is like 2 straight months of constant parties (enkais). This was always
+                        a nice chance to connect with staff who may have been to shy to communicate! 
+                        There are also many ways to get involved! For instance, the ALT before me was into choir, so he participated in music class and choir club. As for me, I joined Higashi's Teacher Hockey Team and I would sometimes join P.E. to participate in some free judo lessons!
+                        I never ice skated before Tomakomai, but I am now proud to say I can play hockey! This was one of my best memories I made here! It is such a unique experience, and I am happy the school has that opportunity!
+                        If you are interested in it please give the PE teachers a shout and you can join!
+                        Maekawa sensei is the coach of the team, he is a PE teacher and was very warm and welcoming! 
+                        I hope you find your niche! My best advice is to find something you want to explore and join the community in some way!
+                        This was one of the best ways for me to build rapport with the staff, so I hope you can find your niche too!</td>
+                    <td>2 Chome-12-20 Shimizucho, Tomakomai, Hokkaido 053-0034</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Higashi Highschool (東高校)</th>
+                    <td>Do you like High School Musical? Well, welcome to East High!
+                        Who else can say they have a school that had a manga written about them? No, seriously, check out "Dogsred" by Satoru Noda!
+                        
+                        Higashi is your homebase and technically your direct supervisors. You will clock into this school, and if you need to call in sick, you will have to contact the school as well!
+                        This is the school that will set up the groundwork before you arrive (aka housing, paperwork, time-off etc.)
+                        and it will be the school you spend most of your time at (during winter/spring/summer breaks you will be at Higashi, no visit schools during that time).
+                         Higashi is known to have the highest English ability out of all the high schools in Tomakomai. Higashi has a very welcoming atmosphere and many teachers will be eager to practice their English skills on you! The English teachers here are very kind and I always enjoyed team-teaching with them!
+                        The workload definitely depends on the time of the year but it was always very managable. I never felt over-worked (quite the opposite).
+                        Definitely there will be work lulls (namely, during breaks) but this gave me time to study Japanese or work on my own personal projects (kinda like this website)!
+                       There are many ways and chances to connect with staff, at the end and beginning of the school year it is like 2 straight months of constant parties (enkais). This was always
+                        a nice chance to connect with staff who may have been to shy to communicate! 
+                        There are also many ways to get involved! For instance, the ALT before me was into choir, so he participated in music class and choir club. As for me, I joined Higashi's Teacher Hockey Team and I would sometimes join P.E. to participate in some free judo lessons!
+                        I never ice skated before Tomakomai, but I am now proud to say I can play hockey! This was one of my best memories I made here! It is such a unique experience, and I am happy the school has that opportunity!
+                        If you are interested in it please give the PE teachers a shout and you can join!
+                        Maekawa sensei is the coach of the team, he is a PE teacher and was very warm and welcoming! 
+                        I hope you find your niche! My best advice is to find something you want to explore and join the community in some way!
+                        This was one of the best ways for me to build rapport with the staff, so I hope you can find your niche too!</td>
+                    <td>2 Chome-12-20 Shimizucho, Tomakomai, Hokkaido 053-0034</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Higashi Highschool (東高校)</th>
+                    <td>Do you like High School Musical? Well, welcome to East High!
+                        Who else can say they have a school that had a manga written about them? No, seriously, check out "Dogsred" by Satoru Noda!
+                        
+                        Higashi is your homebase and technically your direct supervisors. You will clock into this school, and if you need to call in sick, you will have to contact the school as well!
+                        This is the school that will set up the groundwork before you arrive (aka housing, paperwork, time-off etc.)
+                        and it will be the school you spend most of your time at (during winter/spring/summer breaks you will be at Higashi, no visit schools during that time).
+                         Higashi is known to have the highest English ability out of all the high schools in Tomakomai. Higashi has a very welcoming atmosphere and many teachers will be eager to practice their English skills on you! The English teachers here are very kind and I always enjoyed team-teaching with them!
+                        The workload definitely depends on the time of the year but it was always very managable. I never felt over-worked (quite the opposite).
+                        Definitely there will be work lulls (namely, during breaks) but this gave me time to study Japanese or work on my own personal projects (kinda like this website)!
+                       There are many ways and chances to connect with staff, at the end and beginning of the school year it is like 2 straight months of constant parties (enkais). This was always
+                        a nice chance to connect with staff who may have been to shy to communicate! 
+                        There are also many ways to get involved! For instance, the ALT before me was into choir, so he participated in music class and choir club. As for me, I joined Higashi's Teacher Hockey Team and I would sometimes join P.E. to participate in some free judo lessons!
+                        I never ice skated before Tomakomai, but I am now proud to say I can play hockey! This was one of my best memories I made here! It is such a unique experience, and I am happy the school has that opportunity!
+                        If you are interested in it please give the PE teachers a shout and you can join!
+                        Maekawa sensei is the coach of the team, he is a PE teacher and was very warm and welcoming! 
+                        I hope you find your niche! My best advice is to find something you want to explore and join the community in some way!
+                        This was one of the best ways for me to build rapport with the staff, so I hope you can find your niche too!</td>
+                    <td>2 Chome-12-20 Shimizucho, Tomakomai, Hokkaido 053-0034</td>
+                    
+                  </tr>
+                </tbody>
+              </table>
+           
             <!--End table--->
             </div>
         </section>
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <footer>
         <p>Want to connect? Follow me on insta: <a href="https://www.instagram.com/dirty_fire_rat/">@dirty_fire_rat</a></p>
     </footer>
